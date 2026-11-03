@@ -1,0 +1,120 @@
+{
+  "input_sar": "G:\\Paper_Experience\\湖泊论文\\LakeDetection\\Contours\\step0_original.tif",
+  "input_candidate": "G:\\Paper_Experience\\湖泊论文\\LakeDetection\\Contours\\step3_filtered1_mask.tif",
+  "input_roi": "G:\\Paper_Experience\\KeKexili\\Kekexili.tif",
+  "input_shp": "G:\\Paper_Experience\\WorkDir\\shp\\Lake_TP_2022.shp",
+  "metric_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Azimuthal_Equidistant\"],PARAMETER[\"latitude_of_center\",35.41850035],PARAMETER[\"longitude_of_center\",90.2217214],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+  "metric_grid_gt": [
+    -145929.50550593215,
+    20.0,
+    0.0,
+    108246.03220879739,
+    0.0,
+    -20.0
+  ],
+  "metric_grid_size": [
+    14593,
+    10766
+  ],
+  "evaluation_gt": [
+    -46500.0,
+    60.0,
+    0.0,
+    48540.0,
+    0.0,
+    -60.0
+  ],
+  "evaluation_size": [
+    2842,
+    2358
+  ],
+  "grid_resolution_m": 60,
+  "match_tolerance_m": 60,
+  "min_lake_area_km2_exclusive": 1,
+  "candidate_resampling": "near",
+  "dilation": false,
+  "registration": {
+    "selected_model": "affine",
+    "matrix_reference_to_sar_m": [
+      [
+        1.014369120607893,
+        0.001110400293831674,
+        -848.57297066923
+      ],
+      [
+        -0.00300189419686143,
+        1.0001003921315408,
+        305.3094493827331
+      ]
+    ],
+    "control_lakes": [
+      7433,
+      7881,
+      9106,
+      9131,
+      11426,
+      11427,
+      11434,
+      11439,
+      11447,
+      11450,
+      11453,
+      11454,
+      11971,
+      12075,
+      12271,
+      12431,
+      12585,
+      12613,
+      12657,
+      12678,
+      12718,
+      12810,
+      12859,
+      12930,
+      12969,
+      12970,
+      13015
+    ],
+    "holdout_lakes": [
+      7420,
+      8028,
+      11200,
+      11232,
+      11272,
+      11284,
+      11436,
+      11684,
+      12184,
+      12192,
+      12260,
+      12588,
+      12684,
+      12776,
+      12812,
+      12928,
+      13032
+    ],
+    "control_points": 43,
+    "holdout_points": 25,
+    "occupied_control_cells": 12,
+    "grid_cells_total": 16,
+    "leave_one_control_lake_out_error_m": {
+      "translation": 491.86773244895653,
+      "similarity": 728.0808358232721,
+      "affine": 148.87224861135525
+    },
+    "holdout_median_before_m": 491.9349550499537,
+    "holdout_median_after_m": 112.80174449197789,
+    "registration_independently_within60m": false,
+    "point_status": "Automatic shoreline-corner proposals, not surveyed ground-control points",
+    "selection": "4x4 whole-ROI grid, <=4control points/cell, <=2points/lake/cell; deterministic holdout lakes OBJECTID modulo4=0",
+    "caveat": "Cells without reliable shorelines are left empty, not populated with invented anchors; no recall-based fit selection"
+  },
+  "prior_result_validation": {
+    "reference_pixels": 50018,
+    "matched_pixels_at60m": 45960,
+    "candidate_sha256": "deca5e15cb7c4483876d3c6d6bd72c4fe14f1cad97a4e18325dda43c588b671f",
+    "reference_sha256": "66ef7228c3d21ed8db96c17d5a9745c13547cd8ef609f83884428ec426c41ff1"
+  }
+}

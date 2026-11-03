@@ -1,0 +1,6 @@
+{
+  "image_content": "binary_contour",
+  "source": "Original manually labelled contour PNGs",
+  "resize": "224x224 LANCZOS; cached before identical train-only augmentation",
+  "imagenet_weights_sha256": "b627a593bcbe140c234610266fe4f8ae95ea42fc881d091c9b6052e6b1d0590f"
+}

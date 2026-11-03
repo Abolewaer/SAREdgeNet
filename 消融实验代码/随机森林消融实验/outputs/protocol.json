@@ -1,0 +1,81 @@
+{
+  "config": {
+    "seed": 42,
+    "random_forest": {
+      "n_estimators": 500,
+      "max_depth": null,
+      "min_samples_split": 2,
+      "min_samples_leaf": 2,
+      "max_features": "sqrt",
+      "class_weight": "balanced",
+      "n_jobs": 8
+    },
+    "deep_training": {
+      "optimizer": "Adam",
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001,
+      "epochs": 80,
+      "batch_size": 32,
+      "selection_metric": "validation weighted-F1",
+      "early_stopping": false
+    },
+    "imagenet_weights": "C:/Users/Rym/.cache/torch/hub/checkpoints/resnet34-b627a593.pth",
+    "threshold": 0.5,
+    "parameter_search": false,
+    "source_image_type": "binary_contour"
+  },
+  "config_sha256": "e912588a4b1e2f5c5ce447806680456c6fd12be94d52dadd4d65800a2ca682b0",
+  "feature_columns": [
+    "Edge Pixel Count",
+    "Bounding Box Length(px)",
+    "Bounding Box Width(px)",
+    "L/W + W/L",
+    "Curvature Feature",
+    "Roughness",
+    "Pixel Mean",
+    "Pixel Std",
+    "Pixel Median",
+    "DEM Mean",
+    "DEM Std",
+    "DEM Median",
+    "DEM Min",
+    "DEM Max",
+    "Valid DEM Pixels",
+    "Compactness",
+    "Extent"
+  ],
+  "manifest_sha256": "baf023cbf28dc0dd21d243384acbd3fbdda9e48cc8d5bf40059aa735f4917a7b",
+  "split_sha256": "2a34ee1461bf56837c4da2f3dfe9ca3f34e0b2877dd6a24984dedf724162d052",
+  "source_table_sha256": "081c3008bd895f3e11abe1ce5a1a0543d41ef79964c2395a9482fcf5b358e684",
+  "class_counts": {
+    "train": {
+      "0": 1796,
+      "1": 102
+    },
+    "validation": {
+      "0": 449,
+      "1": 26
+    },
+    "test": {
+      "0": 2576,
+      "1": 76
+    }
+  },
+  "class_weights_train": [
+    0.5283964365256125,
+    9.303921568627452
+  ],
+  "evaluation_unit": "contour_classification",
+  "pr_auc_definition": "sklearn average_precision_score: noninterpolated average precision (AP), not trapezoidal integration",
+  "threshold": 0.5,
+  "external_scope": "Outside the predefined Kekexili.tif ROI within this same original SAR scene; not an independent-scene test",
+  "independent_scene_test": false,
+  "environment": {
+    "python": "3.12.3",
+    "numpy": "1.26.4",
+    "sklearn": "1.5.1",
+    "torch": "2.6.0+cu126",
+    "torchvision": "0.21.0+cu126",
+    "gpu": "NVIDIA GeForce RTX 3080"
+  }
+}

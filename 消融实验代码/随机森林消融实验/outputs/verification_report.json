@@ -1,0 +1,98 @@
+{
+  "status": "passed",
+  "same_samples_same_labels_same_split": true,
+  "prediction_checks": [
+    {
+      "model": "random_forest",
+      "subset": "validation",
+      "n": 475,
+      "predictions_sha256": "5d97f1489d76c52e06bbbfa2302b4aa6ca0aefddd5a67119fbcba208fdc37f90",
+      "shared_ids_and_labels_verified": true,
+      "all_metrics_recomputed": true
+    },
+    {
+      "model": "random_forest",
+      "subset": "test",
+      "n": 2652,
+      "predictions_sha256": "47e8c8160b53ae09e47df464283bbb81da94ce0de71d6065cd06d762e5e35d2a",
+      "shared_ids_and_labels_verified": true,
+      "all_metrics_recomputed": true
+    },
+    {
+      "model": "numeric_mlp",
+      "subset": "validation",
+      "n": 475,
+      "predictions_sha256": "91000d0ce904d717933ac5fb1f4623690411ea0cda0abdf404510f1d97e4bc0d",
+      "shared_ids_and_labels_verified": true,
+      "all_metrics_recomputed": true
+    },
+    {
+      "model": "numeric_mlp",
+      "subset": "test",
+      "n": 2652,
+      "predictions_sha256": "b49f1f86865b6a206bd2bd365a33fc272beb1697d075cea93c4ea35352371dc9",
+      "shared_ids_and_labels_verified": true,
+      "all_metrics_recomputed": true
+    },
+    {
+      "model": "full_dual_branch",
+      "subset": "validation",
+      "n": 475,
+      "predictions_sha256": "fb9c1eb5fd542590dceadb66b2fc26152fdc6faf1003c082ffc4632a72306157",
+      "shared_ids_and_labels_verified": true,
+      "all_metrics_recomputed": true
+    },
+    {
+      "model": "full_dual_branch",
+      "subset": "test",
+      "n": 2652,
+      "predictions_sha256": "4bf073aaed4fe5c6b6d9f2f9bc667c4a4530546572ff21e1a8da33f88277e8d0",
+      "shared_ids_and_labels_verified": true,
+      "all_metrics_recomputed": true
+    }
+  ],
+  "source_checks": [
+    {
+      "file": "audit_results.py",
+      "syntax": "passed",
+      "sha256": "c7accdd2157d1b2a384f6f3f37e51063608ba731e406b5d99d4b2a05f9ff7df5"
+    },
+    {
+      "file": "prepare_real_data.py",
+      "syntax": "passed",
+      "sha256": "6c375ed23d50a06328dbaa712dc1e810248b714a180032a6e53bfebe54ded7e3"
+    },
+    {
+      "file": "run_comparison.py",
+      "syntax": "passed",
+      "sha256": "24f6d29083f2a7af5db4004a572f44c6288babc2ddb5367a3d2a4d750c793a6d"
+    }
+  ],
+  "checkpoint_hashes": [
+    {
+      "model": "random_forest",
+      "path": "G:\\Paper_Experience\\SAREdgeNet_整理版\\消融实验代码\\随机森林消融实验\\outputs\\random_forest\\model.joblib",
+      "sha256": "c17221cadf1c231706d4a0ae27ba2a10582c5bc1da62b74d550a141f53b0c336"
+    },
+    {
+      "model": "numeric_mlp",
+      "path": "G:\\Paper_Experience\\SAREdgeNet_整理版\\消融实验代码\\随机森林消融实验\\outputs\\numeric_mlp\\best.pt",
+      "sha256": "789143b391a3d62f744bc9d7b9128bbb2b426fe2ab45113129d45a311bd9af1d"
+    },
+    {
+      "model": "full_dual_branch",
+      "path": "G:\\Paper_Experience\\SAREdgeNet_整理版\\消融实验代码\\随机森林消融实验\\outputs\\full_dual_branch\\best.pt",
+      "sha256": "0ddecdca71b90e31fbc9e804557573ffc19c21f1403a4cf2186ca68456697e05"
+    }
+  ],
+  "models": [
+    "random_forest",
+    "numeric_mlp",
+    "full_dual_branch"
+  ],
+  "n_runs_per_model": 1,
+  "pr_auc_definition": "noninterpolated Average Precision (AP)",
+  "independent_scene_test": false,
+  "scope": "Outside the predefined Kekexili.tif ROI within this same original SAR scene; not an independent-scene test",
+  "synthetic_data_used": false
+}

@@ -1,0 +1,27 @@
+{
+  "checkpoint": "outputs/kekexili_80_20_external_test_v2/SAREdgeNet/step5/best_classifier.pt",
+  "output_dir": "outputs/stability",
+  "cases": [
+    {
+      "name": "Kokoxili",
+      "sar": "data/stability/Kokoxili/sar.tif",
+      "dem": "data/stability/Kokoxili/dem.tif",
+      "reference": "data/stability/Kokoxili/reference.shp",
+      "target_crs": null
+    },
+    {
+      "name": "Wulanwula",
+      "sar": "data/stability/Wulanwula/sar.tif",
+      "dem": "data/stability/Wulanwula/dem.tif",
+      "reference": "data/stability/Wulanwula/reference.shp",
+      "target_crs": null
+    },
+    {
+      "name": "Xijinwulan",
+      "sar": "data/stability/Xijinwulan/sar.tif",
+      "dem": "data/stability/Xijinwulan/dem.tif",
+      "reference": "data/stability/Xijinwulan/reference.shp",
+      "target_crs": null
+    }
+  ]
+}

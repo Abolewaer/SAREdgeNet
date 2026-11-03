@@ -1,0 +1,41 @@
+{
+  "checkpoint": "outputs/kekexili_80_20_external_test_v2/SAREdgeNet/step5/best_classifier.pt",
+  "output_dir": "outputs/stability",
+  "cases": [
+    {
+      "name": "Baikal",
+      "sar": "data/stability/Baikal/sar.tif",
+      "dem": "data/stability/Baikal/dem.tif",
+      "reference": null,
+      "target_crs": null
+    },
+    {
+      "name": "Geneva",
+      "sar": "data/stability/Geneva/sar.tif",
+      "dem": "data/stability/Geneva/dem.tif",
+      "reference": null,
+      "target_crs": null
+    },
+    {
+      "name": "Victoria",
+      "sar": "data/stability/Victoria/sar.tif",
+      "dem": "data/stability/Victoria/dem.tif",
+      "reference": null,
+      "target_crs": null
+    },
+    {
+      "name": "Erie",
+      "sar": "data/stability/Erie/sar.tif",
+      "dem": "data/stability/Erie/dem.tif",
+      "reference": null,
+      "target_crs": null
+    },
+    {
+      "name": "McKenzie",
+      "sar": "data/stability/McKenzie/sar.tif",
+      "dem": "data/stability/McKenzie/dem.tif",
+      "reference": null,
+      "target_crs": null
+    }
+  ]
+}

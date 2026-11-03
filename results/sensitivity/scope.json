@@ -1,0 +1,462 @@
+{
+  "source_statistics": {
+    "source": "G:\\Paper_Experience\\WorkDir\\Finally\\U-Net\\tif\\Tibet1.tif",
+    "region": "Fixed rectangular source window covering Kokoxili.tif extent, not the entire plateau mosaic",
+    "source_window": [
+      85726,
+      20835,
+      13690,
+      9325
+    ],
+    "nonzero_count": 127633327,
+    "mean": -14.06468037928683,
+    "std": 3.3582946774409965,
+    "minimum": -29.0,
+    "maximum": 13.0,
+    "exclude": "Nonfinite and exactly zero, following preprocessing implementation"
+  },
+  "input_source_window": [
+    87967,
+    24430,
+    4855,
+    1838
+  ],
+  "display_source_window": [
+    88063,
+    24526,
+    4663,
+    1646
+  ],
+  "parameter_design": "Five settings per family, current setting at center. Other conditions fixed; area-filter experiment scales all three cutoffs together and is not an independent test of each cutoff.",
+  "implementation": "Matches preprocessing operations and DoG/three area filters in saredge.spatial.preprocess and SAREdgeNet_Step4. Stops BEFORE thinning/pruning/classification/postprocessing. Gaussian and component operations run on fixed padded local window; components crossing local bounds may differ from whole-scene processing.",
+  "normalization": "Raw [nonzero] source values normalized with statistics of fixed Kokoxili bounding rectangle. DoG max normalization is LOCAL padded-window normalization, not whole-scene max; it is fixed spatial scope across settings. Not a reconstruction of original historical parameter selection.",
+  "display": "Fixed baseline grayscale background; blue shows retained pre-thinning candidate pixels. No lake reference labels, model training, or final segmentation metrics used.",
+  "qualification": "New local qualitative parameter diagnostic. Does not establish whole-region robustness or globally optimal parameters; does not prove historical parameter experiments existed.",
+  "records": [
+    {
+      "parameter": "clip",
+      "value": 1,
+      "current_setting": false,
+      "foreground_pixels": 15758,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 1,
+      "sigma1": 2,
+      "sigma2": 6,
+      "response_threshold": 50,
+      "area_limits": [
+        200,
+        200,
+        500
+      ]
+    },
+    {
+      "parameter": "clip",
+      "value": 1.5,
+      "current_setting": false,
+      "foreground_pixels": 15346,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 1.5,
+      "sigma1": 2,
+      "sigma2": 6,
+      "response_threshold": 50,
+      "area_limits": [
+        200,
+        200,
+        500
+      ]
+    },
+    {
+      "parameter": "clip",
+      "value": 2,
+      "current_setting": true,
+      "foreground_pixels": 14872,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 2,
+      "sigma1": 2,
+      "sigma2": 6,
+      "response_threshold": 50,
+      "area_limits": [
+        200,
+        200,
+        500
+      ]
+    },
+    {
+      "parameter": "clip",
+      "value": 2.5,
+      "current_setting": false,
+      "foreground_pixels": 14821,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 2.5,
+      "sigma1": 2,
+      "sigma2": 6,
+      "response_threshold": 50,
+      "area_limits": [
+        200,
+        200,
+        500
+      ]
+    },
+    {
+      "parameter": "clip",
+      "value": 3,
+      "current_setting": false,
+      "foreground_pixels": 15436,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 3,
+      "sigma1": 2,
+      "sigma2": 6,
+      "response_threshold": 50,
+      "area_limits": [
+        200,
+        200,
+        500
+      ]
+    },
+    {
+      "parameter": "s1",
+      "value": 1,
+      "current_setting": false,
+      "foreground_pixels": 4804,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 2,
+      "sigma1": 1,
+      "sigma2": 6,
+      "response_threshold": 50,
+      "area_limits": [
+        200,
+        200,
+        500
+      ]
+    },
+    {
+      "parameter": "s1",
+      "value": 1.5,
+      "current_setting": false,
+      "foreground_pixels": 8971,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 2,
+      "sigma1": 1.5,
+      "sigma2": 6,
+      "response_threshold": 50,
+      "area_limits": [
+        200,
+        200,
+        500
+      ]
+    },
+    {
+      "parameter": "s1",
+      "value": 2,
+      "current_setting": true,
+      "foreground_pixels": 14872,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 2,
+      "sigma1": 2,
+      "sigma2": 6,
+      "response_threshold": 50,
+      "area_limits": [
+        200,
+        200,
+        500
+      ]
+    },
+    {
+      "parameter": "s1",
+      "value": 2.5,
+      "current_setting": false,
+      "foreground_pixels": 39427,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 2,
+      "sigma1": 2.5,
+      "sigma2": 6,
+      "response_threshold": 50,
+      "area_limits": [
+        200,
+        200,
+        500
+      ]
+    },
+    {
+      "parameter": "s1",
+      "value": 3,
+      "current_setting": false,
+      "foreground_pixels": 45044,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 2,
+      "sigma1": 3,
+      "sigma2": 6,
+      "response_threshold": 50,
+      "area_limits": [
+        200,
+        200,
+        500
+      ]
+    },
+    {
+      "parameter": "s2",
+      "value": 4,
+      "current_setting": false,
+      "foreground_pixels": 1448,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 2,
+      "sigma1": 2,
+      "sigma2": 4,
+      "response_threshold": 50,
+      "area_limits": [
+        200,
+        200,
+        500
+      ]
+    },
+    {
+      "parameter": "s2",
+      "value": 5,
+      "current_setting": false,
+      "foreground_pixels": 6820,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 2,
+      "sigma1": 2,
+      "sigma2": 5,
+      "response_threshold": 50,
+      "area_limits": [
+        200,
+        200,
+        500
+      ]
+    },
+    {
+      "parameter": "s2",
+      "value": 6,
+      "current_setting": true,
+      "foreground_pixels": 14872,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 2,
+      "sigma1": 2,
+      "sigma2": 6,
+      "response_threshold": 50,
+      "area_limits": [
+        200,
+        200,
+        500
+      ]
+    },
+    {
+      "parameter": "s2",
+      "value": 7,
+      "current_setting": false,
+      "foreground_pixels": 42225,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 2,
+      "sigma1": 2,
+      "sigma2": 7,
+      "response_threshold": 50,
+      "area_limits": [
+        200,
+        200,
+        500
+      ]
+    },
+    {
+      "parameter": "s2",
+      "value": 8,
+      "current_setting": false,
+      "foreground_pixels": 82455,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 2,
+      "sigma1": 2,
+      "sigma2": 8,
+      "response_threshold": 50,
+      "area_limits": [
+        200,
+        200,
+        500
+      ]
+    },
+    {
+      "parameter": "threshold",
+      "value": 30,
+      "current_setting": false,
+      "foreground_pixels": 173057,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 2,
+      "sigma1": 2,
+      "sigma2": 6,
+      "response_threshold": 30,
+      "area_limits": [
+        200,
+        200,
+        500
+      ]
+    },
+    {
+      "parameter": "threshold",
+      "value": 40,
+      "current_setting": false,
+      "foreground_pixels": 63864,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 2,
+      "sigma1": 2,
+      "sigma2": 6,
+      "response_threshold": 40,
+      "area_limits": [
+        200,
+        200,
+        500
+      ]
+    },
+    {
+      "parameter": "threshold",
+      "value": 50,
+      "current_setting": true,
+      "foreground_pixels": 14872,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 2,
+      "sigma1": 2,
+      "sigma2": 6,
+      "response_threshold": 50,
+      "area_limits": [
+        200,
+        200,
+        500
+      ]
+    },
+    {
+      "parameter": "threshold",
+      "value": 60,
+      "current_setting": false,
+      "foreground_pixels": 4716,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 2,
+      "sigma1": 2,
+      "sigma2": 6,
+      "response_threshold": 60,
+      "area_limits": [
+        200,
+        200,
+        500
+      ]
+    },
+    {
+      "parameter": "threshold",
+      "value": 70,
+      "current_setting": false,
+      "foreground_pixels": 1510,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 2,
+      "sigma1": 2,
+      "sigma2": 6,
+      "response_threshold": 70,
+      "area_limits": [
+        200,
+        200,
+        500
+      ]
+    },
+    {
+      "parameter": "area",
+      "value": 0.25,
+      "current_setting": false,
+      "foreground_pixels": 110235,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 2,
+      "sigma1": 2,
+      "sigma2": 6,
+      "response_threshold": 50,
+      "area_limits": [
+        50,
+        50,
+        125
+      ]
+    },
+    {
+      "parameter": "area",
+      "value": 0.5,
+      "current_setting": false,
+      "foreground_pixels": 51788,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 2,
+      "sigma1": 2,
+      "sigma2": 6,
+      "response_threshold": 50,
+      "area_limits": [
+        100,
+        100,
+        250
+      ]
+    },
+    {
+      "parameter": "area",
+      "value": 1,
+      "current_setting": true,
+      "foreground_pixels": 14872,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 2,
+      "sigma1": 2,
+      "sigma2": 6,
+      "response_threshold": 50,
+      "area_limits": [
+        200,
+        200,
+        500
+      ]
+    },
+    {
+      "parameter": "area",
+      "value": 1.5,
+      "current_setting": false,
+      "foreground_pixels": 10004,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 2,
+      "sigma1": 2,
+      "sigma2": 6,
+      "response_threshold": 50,
+      "area_limits": [
+        300,
+        300,
+        750
+      ]
+    },
+    {
+      "parameter": "area",
+      "value": 2,
+      "current_setting": false,
+      "foreground_pixels": 6578,
+      "window_width": 4663,
+      "window_height": 1646,
+      "clip_k": 2,
+      "sigma1": 2,
+      "sigma2": 6,
+      "response_threshold": 50,
+      "area_limits": [
+        400,
+        400,
+        1000
+      ]
+    }
+  ]
+}

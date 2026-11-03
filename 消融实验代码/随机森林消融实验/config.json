@@ -1,0 +1,25 @@
+{
+  "seed": 42,
+  "random_forest": {
+    "n_estimators": 500,
+    "max_depth": null,
+    "min_samples_split": 2,
+    "min_samples_leaf": 2,
+    "max_features": "sqrt",
+    "class_weight": "balanced",
+    "n_jobs": 8
+  },
+  "deep_training": {
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "epochs": 80,
+    "batch_size": 32,
+    "selection_metric": "validation weighted-F1",
+    "early_stopping": false
+  },
+  "imagenet_weights": "data/weights/resnet34-b627a593.pth",
+  "threshold": 0.5,
+  "parameter_search": false,
+  "source_image_type": "binary_contour"
+}

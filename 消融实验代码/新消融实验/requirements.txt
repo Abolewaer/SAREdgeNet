@@ -1,0 +1,9 @@
+torch>=2.0
+torchvision>=0.15
+numpy
+pandas
+scikit-learn
+Pillow
+openpyxl
+# Only needed for externally supplied full-scene pixel-mask evaluation:
+rasterio

@@ -1,0 +1,9 @@
+{
+  "method": "FPN",
+  "scope": "end_to_end",
+  "inference_config": "configs/FPN.json",
+  "cpu_threads": 4,
+  "preprocess_input": "data/sar_calibrated_terrain_corrected.tif",
+  "target_crs": null,
+  "dem_source": "data/dem_metres.tif"
+}

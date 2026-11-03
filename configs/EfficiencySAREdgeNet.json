@@ -1,0 +1,6 @@
+{
+  "method": "SAREdgeNet",
+  "scope": "end_to_end",
+  "inference_config": "configs/SAREdgeNet.json",
+  "cpu_threads": 4
+}

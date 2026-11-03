@@ -1,0 +1,14 @@
+{
+  "table": "data/ablation/features17_labelled.csv",
+  "image_dir": "data/ablation/contours",
+  "split_file": "outputs/kekexili_80_20_external_test_v2/ablation/shared_split.csv",
+  "output_dir": "outputs/kekexili_80_20_external_test_v2/ablation",
+  "epochs": 80,
+  "learning_rate": 0.001,
+  "batch_size": 32,
+  "training_seed": 42,
+  "expected_test_size": null,
+  "spatial_protocol_file": "configs/SpatialProtocol.json",
+  "evaluation_subset": "test",
+  "spatial_samples_file": "data/training/contour_spatial_mapping.csv"
+}

@@ -1,0 +1,11 @@
+{
+  "protocol_id": "kekexili_classwise80_20_external_test_v2",
+  "train_roi": "data/development_roi.tif",
+  "development_train_fraction": 0.8,
+  "development_validation_fraction": 0.2,
+  "spatial_seed": 42,
+  "boundary_policy": "exclude_crossing_windows",
+  "contour_split_unit": "separate_lake_and_nonlake_contours",
+  "segmentation_split_unit": "separate_lake_containing_and_background_nonoverlapping_patches",
+  "headline_evaluation_subset": "test"
+}

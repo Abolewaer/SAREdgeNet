@@ -1,0 +1,28 @@
+{
+  "seeds": [2, 12, 22, 32, 42, 52, 62, 72, 82, 92],
+  "spatial_protocol_file": "configs/SpatialProtocol.json",
+  "output_dir": "outputs/ten_seed_comparison_external_v1",
+  "prepare_candidates": true,
+  "methods": {
+    "SAREdgeNet": "configs/SAREdgeNet.json",
+    "UNet": "configs/UNet.json",
+    "AttentionUNet": "configs/AttentionUNet.json",
+    "DeepLabV3Plus": "configs/DeepLabV3Plus.json",
+    "FPN": "configs/FPN.json",
+    "PSPNet": "configs/PSPNet.json"
+  },
+  "evaluation_cases": [
+    {
+      "name": "plateau",
+      "sar": "data/sar.tif",
+      "dem": "data/dem_aligned.tif",
+      "reference": "data/reference.shp",
+      "contour_dir": "outputs/ten_seed_comparison_external_v1/shared_candidates/plateau"
+    }
+  ],
+  "deterministic": {
+    "NDVI": {"predictions": {"plateau": "data/evaluation/NDVI.tif"}, "rgb_red": true},
+    "OSTU": {"predictions": {"plateau": "data/evaluation/OSTU.tif"}, "rgb_red": true}
+  },
+  "original_reports": {}
+}

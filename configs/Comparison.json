@@ -1,0 +1,61 @@
+{
+  "evaluation_id": "plateau_2022",
+  "methods": [
+    {
+      "method": "SAREdgeNet",
+      "region_metrics": "outputs/SAREdgeNet/step10/metrics.json",
+      "boundary_metrics": null,
+      "seed_range": null,
+      "efficiency": "outputs/efficiency/SAREdgeNet/summary.json"
+    },
+    {
+      "method": "NDVI",
+      "region_metrics": "outputs/NDVI/metrics.json",
+      "boundary_metrics": null,
+      "seed_range": null,
+      "efficiency": null
+    },
+    {
+      "method": "OSTU",
+      "region_metrics": "outputs/OSTU/metrics.json",
+      "boundary_metrics": null,
+      "seed_range": null,
+      "efficiency": null
+    },
+    {
+      "method": "UNet",
+      "region_metrics": "outputs/UNet_capacity_v2/metrics.json",
+      "boundary_metrics": null,
+      "seed_range": null,
+      "efficiency": "outputs/efficiency/UNet_capacity_v2/summary.json"
+    },
+    {
+      "method": "AttentionUNet",
+      "region_metrics": "outputs/AttentionUNet_capacity_v2/metrics.json",
+      "boundary_metrics": null,
+      "seed_range": null,
+      "efficiency": "outputs/efficiency/AttentionUNet_capacity_v2/summary.json"
+    },
+    {
+      "method": "DeepLabV3Plus+DEM",
+      "region_metrics": "outputs/DeepLabV3Plus_capacity_v2/metrics.json",
+      "boundary_metrics": null,
+      "seed_range": null,
+      "efficiency": "outputs/efficiency/DeepLabV3Plus_capacity_v2/summary.json"
+    },
+    {
+      "method": "PSPNet+DEM",
+      "region_metrics": "outputs/PSPNet_SARDEM_v2/metrics.json",
+      "boundary_metrics": null,
+      "seed_range": null,
+      "efficiency": "outputs/efficiency/PSPNet_SARDEM_v2/summary.json"
+    },
+    {
+      "method": "FPN+DEM",
+      "region_metrics": "outputs/FPN_SARDEM_v2/metrics.json",
+      "boundary_metrics": null,
+      "seed_range": null,
+      "efficiency": "outputs/efficiency/FPN_SARDEM_v2/summary.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "checkpoint": "outputs/kekexili_80_20_external_test_v2/SAREdgeNet/step5/best_classifier.pt",
+  "output_dir": "outputs/stability",
+  "cases": [
+    {
+      "name": "NarenGuole",
+      "sar": "data/stability/NarenGuole/sar.tif",
+      "dem": "data/stability/NarenGuole/dem.tif",
+      "reference": "data/stability/NarenGuole/reference.shp",
+      "target_crs": null
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "evaluation_unit": "contour_classification",
+  "independent_scene_test": false,
+  "results": [
+    {
+      "model": "full_dual_branch",
+      "seed": 42,
+      "n_runs": 1,
+      "evaluation_unit": "contour_classification",
+      "threshold": 0.5,
+      "selected_epoch": 31,
+      "validation": {
+        "TN": 445,
+        "FP": 4,
+        "FN": 0,
+        "TP": 26,
+        "accuracy": 0.991578947368421,
+        "precision": 0.8666666666666667,
+        "recall": 1.0,
+        "f1": 0.9285714285714286,
+        "weighted_f1": 0.9918608602042018,
+        "pr_auc_AP": 0.9736694961595416,
+        "roc_auc": 0.9985437724858661
+      },
+      "spatial_test_same_scene": {
+        "TN": 2524,
+        "FP": 52,
+        "FN": 3,
+        "TP": 73,
+        "accuracy": 0.979260935143288,
+        "precision": 0.584,
+        "recall": 0.9605263157894737,
+        "f1": 0.7263681592039801,
+        "weighted_f1": 0.9816892608381786,
+        "pr_auc_AP": 0.8781478199819532,
+        "roc_auc": 0.9947593167701863
+      },
+      "independent_scene_test": false,
+      "external_scope": "Outside the predefined Kekexili.tif ROI within this same original SAR scene; not an independent-scene test",
+      "elapsed_seconds": 406.35483999999997,
+      "split_sha256": "2a34ee1461bf56837c4da2f3dfe9ca3f34e0b2877dd6a24984dedf724162d052",
+      "manifest_sha256": "baf023cbf28dc0dd21d243384acbd3fbdda9e48cc8d5bf40059aa735f4917a7b"
+    },
+    {
+      "model": "numeric_mlp",
+      "seed": 42,
+      "n_runs": 1,
+      "evaluation_unit": "contour_classification",
+      "threshold": 0.5,
+      "selected_epoch": 24,
+      "validation": {
+        "TN": 444,
+        "FP": 5,
+        "FN": 1,
+        "TP": 25,
+        "accuracy": 0.9873684210526316,
+        "precision": 0.8333333333333334,
+        "recall": 0.9615384615384616,
+        "f1": 0.8928571428571429,
+        "weighted_f1": 0.9877912903063027,
+        "pr_auc_AP": 0.9576809060504712,
+        "roc_auc": 0.9928901833133459
+      },
+      "spatial_test_same_scene": {
+        "TN": 2525,
+        "FP": 51,
+        "FN": 3,
+        "TP": 73,
+        "accuracy": 0.9796380090497737,
+        "precision": 0.5887096774193549,
+        "recall": 0.9605263157894737,
+        "f1": 0.73,
+        "weighted_f1": 0.9819857019248499,
+        "pr_auc_AP": 0.9358514908519519,
+        "roc_auc": 0.9915720006538085
+      },
+      "independent_scene_test": false,
+      "external_scope": "Outside the predefined Kekexili.tif ROI within this same original SAR scene; not an independent-scene test",
+      "elapsed_seconds": 36.06990770000084,
+      "split_sha256": "2a34ee1461bf56837c4da2f3dfe9ca3f34e0b2877dd6a24984dedf724162d052",
+      "manifest_sha256": "baf023cbf28dc0dd21d243384acbd3fbdda9e48cc8d5bf40059aa735f4917a7b"
+    },
+    {
+      "model": "random_forest",
+      "seed": 42,
+      "n_runs": 1,
+      "evaluation_unit": "contour_classification",
+      "threshold": 0.5,
+      "selected_epoch": null,
+      "validation": {
+        "TN": 443,
+        "FP": 6,
+        "FN": 1,
+        "TP": 25,
+        "accuracy": 0.9852631578947368,
+        "precision": 0.8064516129032258,
+        "recall": 0.9615384615384616,
+        "f1": 0.8771929824561403,
+        "weighted_f1": 0.9858682540618062,
+        "pr_auc_AP": 0.9918414918414916,
+        "roc_auc": 0.999400376905945
+      },
+      "spatial_test_same_scene": {
+        "TN": 2537,
+        "FP": 39,
+        "FN": 3,
+        "TP": 73,
+        "accuracy": 0.9841628959276018,
+        "precision": 0.6517857142857143,
+        "recall": 0.9605263157894737,
+        "f1": 0.776595744680851,
+        "weighted_f1": 0.9856234935516995,
+        "pr_auc_AP": 0.8966141987598849,
+        "roc_auc": 0.9959188051650867
+      },
+      "independent_scene_test": false,
+      "external_scope": "Outside the predefined Kekexili.tif ROI within this same original SAR scene; not an independent-scene test",
+      "elapsed_seconds": 0.5992349999996804,
+      "split_sha256": "2a34ee1461bf56837c4da2f3dfe9ca3f34e0b2877dd6a24984dedf724162d052",
+      "manifest_sha256": "baf023cbf28dc0dd21d243384acbd3fbdda9e48cc8d5bf40059aa735f4917a7b"
+    }
+  ]
+}

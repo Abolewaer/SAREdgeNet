@@ -1,0 +1,70 @@
+[
+  {
+    "source": "G:\\Paper_Experience\\湖泊论文\\IEEE Access审稿意见\\SAREdgeNet_代码归档_20260903\\src\\classifier\\final_classifier_architecture.py",
+    "sha256": "df361f503fed2bc3a8d869a7270c262754360e5f505309eb4444b067a6c8a5b4"
+  },
+  {
+    "source": "G:\\Paper_Experience\\CodeTibet\\Part2_DogDectection.py",
+    "sha256": "ef9868504036d4d97494ecb15ab53d27fa16d011ddee36441c5f74764fba3292"
+  },
+  {
+    "source": "G:\\Paper_Experience\\湖泊论文\\IEEE Access审稿意见\\SAREdgeNet_代码归档_20260903\\src\\classifier\\train_classifier.py",
+    "sha256": "294c280541249a7e6feb1fdc31cfdbef524a32dbcd14e8037b119664b71cf534"
+  },
+  {
+    "source": "G:\\Paper_Experience\\CodeTibet\\Part3_Train_Predict.py",
+    "sha256": "5de317500eb1c7b3013f1f12f13d481d57a51b1b4564af62c6cb21f2bc5c658f"
+  },
+  {
+    "source": "G:\\Paper_Experience\\CodeTibet\\PSPNet.py",
+    "sha256": "76652062973b6e4a1ff93738c5c2cea52fb0232b4d4ee39a7b6f240fcca096da"
+  },
+  {
+    "source": "G:\\Paper_Experience\\CodeTibet\\FPN.py",
+    "sha256": "29657d2854f0973f82d7328ffb2df7ba9214040d5081807d038b31258a317dbb"
+  },
+  {
+    "source": "G:\\Paper_Experience\\CodeTibet\\DeepLabV3Plus.py",
+    "sha256": "f81f0915842e38aba70621c18dc7edb590fdb6eb85a7fe0fe35365c58226857a"
+  },
+  {
+    "source": "G:\\Paper_Experience\\CodeTibet\\OSTU.py",
+    "sha256": "c2be4f1eb36939463cc668eb881e37def3a63db6120d02187f5d046ba5745207"
+  },
+  {
+    "source": "G:\\Paper_Experience\\code\\Code\\Step1_PreProcess.py",
+    "sha256": "2306a3da8d740876175bd0a07f050c34a507f9c6e2cef4a8613c99dd5706c119"
+  },
+  {
+    "source": "G:\\Paper_Experience\\code\\Code\\Step2_GEO_Adjusted.py",
+    "sha256": "3c5ad9c394c79e0b483c1bdcb8ca29270aa3a025e8b0ff7c34d0a0e8fff50a73"
+  },
+  {
+    "source": "G:\\Paper_Experience\\code\\Code\\Step3_PreDEM.py",
+    "sha256": "a1465e67383b8ae078d87b6b833d8019bea2d8001b96d948f41b553756b8fbb4"
+  },
+  {
+    "source": "G:\\Paper_Experience\\code\\Code\\Step7.py",
+    "sha256": "e934af7ad8abbba159a3fc5a7492e09c75fceecf224e4533a6345a182b643245"
+  },
+  {
+    "source": "G:\\Paper_Experience\\code\\Code\\Step8.py",
+    "sha256": "5db4ee9c54ee998862575d32c68285ac65e840b1e78aff25e0586baaf78b5186"
+  },
+  {
+    "source": "G:\\Paper_Experience\\code\\Code\\Step9_Polish.py",
+    "sha256": "f2a2e2c96771fd4945c2a53ddf5550f46441e6f68a77b655a0ec10fb6167c13e"
+  },
+  {
+    "source": "G:\\Paper_Experience\\CodeTibet\\UNet.py",
+    "sha256": "2cebcdb3fdf82effe20625a4e8f2d85290d92eeffc2d17d810eb505756b62d12"
+  },
+  {
+    "source": "G:\\Paper_Experience\\CodeTibet\\AttentionUNet.py",
+    "sha256": "77f8707b93f0da703cd9279311e22f641c951c1cf5c3830a4fb295849a6a0ccf"
+  },
+  {
+    "source": "G:\\Paper_Experience\\湖泊论文\\LakeDetection\\Code\\Abolition.py",
+    "sha256": "4af90642d859fda8598b439446a8a6fa44dcb2dc930b206808eab5a811c0c2e2"
+  }
+]

@@ -1,0 +1,95 @@
+{
+  "source_table": "G:\\Paper_Experience\\湖泊论文\\LakeDetection\\Contours\\contour_statistics_enhanced_with_dem.xlsx",
+  "source_table_sha256": "081c3008bd895f3e11abe1ce5a1a0543d41ef79964c2395a9482fcf5b358e684",
+  "source_mask": "G:\\Paper_Experience\\湖泊论文\\LakeDetection\\Contours\\step11_remove_small_contours_final_mask.tif",
+  "source_mask_sha256": "698e8128072e6b4e163c5aeedfa3fc4315f33743bf75125f96fd7f081a9a2ffc",
+  "raw_features": 15,
+  "derived_features": [
+    "Compactness=4*pi*A/P^2",
+    "Extent=A/(bbox_width*bbox_height)"
+  ],
+  "derivation": "Original binary PNGs verified pixelwise against native source crops; extra geometry derived from full numbered component, as in formal Step4; no synthetic samples or predicted labels",
+  "feature_columns": [
+    "Edge Pixel Count",
+    "Bounding Box Length(px)",
+    "Bounding Box Width(px)",
+    "L/W + W/L",
+    "Curvature Feature",
+    "Roughness",
+    "Pixel Mean",
+    "Pixel Std",
+    "Pixel Median",
+    "DEM Mean",
+    "DEM Std",
+    "DEM Median",
+    "DEM Min",
+    "DEM Max",
+    "Valid DEM Pixels",
+    "Compactness",
+    "Extent"
+  ],
+  "manual_labels": {
+    "0": 5404,
+    "1": 232
+  },
+  "spatial_audit": {
+    "protocol_signature": "420e6518b9ad6699775b413729b54f082c30c59602bf6cf961675896b59a217b",
+    "spatial_samples_sha256": "933e700ce15f931be555f6391a706f2417931f298266b4d5b92e2cb4d46ba2f9",
+    "counts": {
+      "test": 2652,
+      "train": 1898,
+      "excluded": 611,
+      "validation": 475
+    },
+    "class_counts": [
+      {
+        "subset": "excluded",
+        "label": 0,
+        "samples": 583
+      },
+      {
+        "subset": "excluded",
+        "label": 1,
+        "samples": 28
+      },
+      {
+        "subset": "test",
+        "label": 0,
+        "samples": 2576
+      },
+      {
+        "subset": "test",
+        "label": 1,
+        "samples": 76
+      },
+      {
+        "subset": "train",
+        "label": 0,
+        "samples": 1796
+      },
+      {
+        "subset": "train",
+        "label": 1,
+        "samples": 102
+      },
+      {
+        "subset": "validation",
+        "label": 0,
+        "samples": 449
+      },
+      {
+        "subset": "validation",
+        "label": 1,
+        "samples": 26
+      }
+    ],
+    "split_method": "Kekexili lake and nonlake contours independently split 80/20 then combined; all external contours are test only",
+    "external_contour_test_supplied": true,
+    "lake_id_check": "lake identity mapping absent; same lake may occur in Kekexili train/validation"
+  },
+  "manifest_sha256": "baf023cbf28dc0dd21d243384acbd3fbdda9e48cc8d5bf40059aa735f4917a7b",
+  "split_sha256": "2a34ee1461bf56837c4da2f3dfe9ca3f34e0b2877dd6a24984dedf724162d052",
+  "source_scene_count": 1,
+  "external_scope": "Outside the predefined Kekexili.tif ROI within this same original SAR scene; not an independent-scene test",
+  "contour_metrics_only": true
+}

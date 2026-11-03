@@ -1,0 +1,41 @@
+{
+  "scope": "Kekexili development region, not independent test; nearest aligned to native SAR grid, pixel micro-average; no boundary tolerance",
+  "missing_tiles": [
+    24
+  ],
+  "valid_pixels": 126227150,
+  "sar_eligible_pixels": 127150834,
+  "valid_coverage": 0.9927355254311584,
+  "best_F1": {
+    "threshold": 0.0062,
+    "precision": 0.962837265039938,
+    "recall": 0.9812962461592328,
+    "F1": 0.971979124276428,
+    "IoU": 0.9454857846075362,
+    "TP": 14708200,
+    "FP": 567694,
+    "FN": 280342
+  },
+  "closest_precision_recall_with_F1_at_least_95percent_of_best": {
+    "threshold": 0.0844,
+    "precision": 0.9694943890464814,
+    "recall": 0.969505773143245,
+    "F1": 0.9695000810614446,
+    "IoU": 0.9408055869233426,
+    "TP": 14531478,
+    "FP": 457240,
+    "FN": 457064
+  },
+  "threshold_zero": {
+    "threshold": 0.0,
+    "precision": 0.9620624876751454,
+    "recall": 0.9820133939645364,
+    "F1": 0.971935568616799,
+    "IoU": 0.9454033608663185,
+    "TP": 14718949,
+    "FP": 580420,
+    "FN": 269593
+  },
+  "reference": "G:\\Paper_Experience\\WorkDir\\shp\\Lake_TP_2022.shp",
+  "direct_count_verification": "passed for both selected thresholds"
+}

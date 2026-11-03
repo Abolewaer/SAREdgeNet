@@ -1,0 +1,2 @@
+﻿grid_resolution_m,match_tolerance_m,min_lake_area_km2_exclusive,lake_count,dilation,reference_boundary_pixels,matched_reference_pixels,unmatched_reference_pixels,pixel_recall
+60,60,1,42,FALSE,50018,48960,1058,0.978847615

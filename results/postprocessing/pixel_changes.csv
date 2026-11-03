@@ -1,0 +1,5 @@
+﻿reference_alignment,from_stage,to_stage,added_reference_water,added_reference_nonwater,removed_reference_water,removed_reference_nonwater
+Original georeferencing only,Initial lake mask,After boundary refinement,0,0,177532,1705763
+Original georeferencing only,After boundary refinement,After internal-gap filling,52759,19343,0,0
+Fixed existing 43-point registration,Initial lake mask,After boundary refinement,0,0,245058,1638237
+Fixed existing 43-point registration,After boundary refinement,After internal-gap filling,58542,13560,0,0

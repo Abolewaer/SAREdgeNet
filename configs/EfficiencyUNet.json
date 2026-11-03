@@ -1,0 +1,8 @@
+{
+  "method": "UNet",
+  "scope": "end_to_end",
+  "inference_config": "configs/UNet.json",
+  "cpu_threads": 4,
+  "preprocess_input": "data/sar_calibrated_terrain_corrected.tif",
+  "target_crs": null
+}

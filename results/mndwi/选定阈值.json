@@ -1,0 +1,16 @@
+{
+  "threshold": 0.1,
+  "rule": "MNDWI > 0.1; Int16 > 1000",
+  "selected_by": "user",
+  "metrics_scope": "Kekexili development region; not comparable directly to paper external test",
+  "development_metrics": {
+    "threshold": "0.1",
+    "precision": "0.9703499841577022",
+    "recall": "0.9664557766859512",
+    "F1": "0.9683989655088965",
+    "IoU": "0.938733999997019",
+    "TP": "14485763",
+    "FP": "442627",
+    "FN": "502779"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "entries": {
+    "MNDWI_2022_Int16_tile_06_of_24.tif": {
+      "zip": "drive-download-20261028T153306Z-1-001.zip",
+      "crc": 343855952,
+      "bytes": 410014747
+    },
+    "MNDWI_2022_Int16_tile_04_of_24.tif": {
+      "zip": "drive-download-20261028T153306Z-1-001.zip",
+      "crc": 1241637261,
+      "bytes": 394797025
+    },
+    "MNDWI_2022_Int16_tile_15_of_24.tif": {
+      "zip": "drive-download-20261028T153306Z-1-001.zip",
+      "crc": 3879142343,
+      "bytes": 659706120
+    },
+    "MNDWI_2022_Int16_tile_09_of_24.tif": {
+      "zip": "drive-download-20261028T153306Z-1-001.zip",
+      "crc": 4129549522,
+      "bytes": 661451291
+    },
+    "MNDWI_2022_Int16_tile_05_of_24.tif": {
+      "zip": "drive-download-20261028T153306Z-1-002.zip",
+      "crc": 4091637685,
+      "bytes": 411586995
+    },
+    "MNDWI_2022_Int16_tile_02_of_24.tif": {
+      "zip": "drive-download-20261028T153306Z-1-002.zip",
+      "crc": 2637596837,
+      "bytes": 470533076
+    },
+    "MNDWI_2022_Int16_tile_03_of_24.tif": {
+      "zip": "drive-download-20261028T153306Z-1-002.zip",
+      "crc": 2529962093,
+      "bytes": 440896471
+    },
+    "MNDWI_2022_Int16_tile_17_of_24.tif": {
+      "zip": "drive-download-20261028T153306Z-1-002.zip",
+      "crc": 3168012814,
+      "bytes": 757346871
+    },
+    "MNDWI_2022_Int16_tile_07_of_24.tif": {
+      "zip": "drive-download-20261028T153306Z-1-003.zip",
+      "crc": 2344208722,
+      "bytes": 506532682
+    },
+    "MNDWI_2022_Int16_tile_16_of_24.tif": {
+      "zip": "drive-download-20261028T153306Z-1-003.zip",
+      "crc": 494070137,
+      "bytes": 709652319
+    },
+    "MNDWI_2022_Int16_tile_18_of_24.tif": {
+      "zip": "drive-download-20261028T153306Z-1-003.zip",
+      "crc": 2676610590,
+      "bytes": 661901297
+    },
+    "MNDWI_2022_Int16_tile_01_of_24.tif": {
+      "zip": "drive-download-20261028T153306Z-1-004.zip",
+      "crc": 2942120514,
+      "bytes": 370654967
+    },
+    "MNDWI_2022_Int16_tile_10_of_24.tif": {
+      "zip": "drive-download-20261028T153306Z-1-004.zip",
+      "crc": 1508257329,
+      "bytes": 683544286
+    },
+    "MNDWI_2022_Int16_tile_13_of_24.tif": {
+      "zip": "drive-download-20261028T153306Z-1-004.zip",
+      "crc": 2400388415,
+      "bytes": 620571625
+    },
+    "MNDWI_2022_Int16_tile_12_of_24.tif": {
+      "zip": "drive-download-20261028T153306Z-1-005.zip",
+      "crc": 494322003,
+      "bytes": 622810274
+    },
+    "MNDWI_2022_Int16_tile_19_of_24.tif": {
+      "zip": "drive-download-20261028T153306Z-1-005.zip",
+      "crc": 642267446,
+      "bytes": 500888628
+    },
+    "MNDWI_2022_Int16_tile_08_of_24.tif": {
+      "zip": "drive-download-20261028T153306Z-1-005.zip",
+      "crc": 2455429566,
+      "bytes": 661736601
+    },
+    "MNDWI_2022_Int16_tile_11_of_24.tif": {
+      "zip": "drive-download-20261028T153306Z-1-006.zip",
+      "crc": 1730172989,
+      "bytes": 703769202
+    },
+    "MNDWI_2022_Int16_tile_14_of_24.tif": {
+      "zip": "drive-download-20261028T153306Z-1-006.zip",
+      "crc": 3439012554,
+      "bytes": 658979114
+    },
+    "MNDWI_2022_Int16_tile_23_of_24.tif": {
+      "zip": "drive-download-20261029T043806Z-1-001.zip",
+      "crc": 1128611864,
+      "bytes": 704553313
+    },
+    "MNDWI_2022_Int16_tile_21_of_24.tif": {
+      "zip": "drive-download-20261029T043806Z-1-001.zip",
+      "crc": 586033998,
+      "bytes": 695632079
+    },
+    "MNDWI_2022_Int16_tile_20_of_24.tif": {
+      "zip": "drive-download-20261029T043806Z-1-002.zip",
+      "crc": 1561600321,
+      "bytes": 623962861
+    },
+    "MNDWI_2022_Int16_tile_22_of_24.tif": {
+      "zip": "drive-download-20261029T043806Z-1-002.zip",
+      "crc": 3151017009,
+      "bytes": 742154320
+    }
+  },
+  "duplicates": [
+    "MNDWI_2022_Int16_tile_23_of_24.tif",
+    "MNDWI_2022_Int16_tile_21_of_24.tif",
+    "MNDWI_2022_Int16_tile_13_of_24.tif",
+    "MNDWI_2022_Int16_tile_14_of_24.tif",
+    "MNDWI_2022_Int16_tile_10_of_24.tif",
+    "MNDWI_2022_Int16_tile_12_of_24.tif"
+  ],
+  "missing_tiles": [
+    24
+  ]
+}

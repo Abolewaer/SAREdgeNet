@@ -1,0 +1,39 @@
+{
+  "model": "random_forest",
+  "seed": 42,
+  "n_runs": 1,
+  "evaluation_unit": "contour_classification",
+  "threshold": 0.5,
+  "selected_epoch": null,
+  "validation": {
+    "TN": 443,
+    "FP": 6,
+    "FN": 1,
+    "TP": 25,
+    "accuracy": 0.9852631578947368,
+    "precision": 0.8064516129032258,
+    "recall": 0.9615384615384616,
+    "f1": 0.8771929824561403,
+    "weighted_f1": 0.9858682540618062,
+    "pr_auc_AP": 0.9918414918414916,
+    "roc_auc": 0.999400376905945
+  },
+  "spatial_test_same_scene": {
+    "TN": 2537,
+    "FP": 39,
+    "FN": 3,
+    "TP": 73,
+    "accuracy": 0.9841628959276018,
+    "precision": 0.6517857142857143,
+    "recall": 0.9605263157894737,
+    "f1": 0.776595744680851,
+    "weighted_f1": 0.9856234935516995,
+    "pr_auc_AP": 0.8966141987598849,
+    "roc_auc": 0.9959188051650867
+  },
+  "independent_scene_test": false,
+  "external_scope": "Outside the predefined Kekexili.tif ROI within this same original SAR scene; not an independent-scene test",
+  "elapsed_seconds": 0.5992349999996804,
+  "split_sha256": "2a34ee1461bf56837c4da2f3dfe9ca3f34e0b2877dd6a24984dedf724162d052",
+  "manifest_sha256": "baf023cbf28dc0dd21d243384acbd3fbdda9e48cc8d5bf40059aa735f4917a7b"
+}

@@ -1,0 +1,11 @@
+numpy
+pandas
+scikit-learn
+joblib
+torch
+torchvision
+Pillow
+opencv-python
+GDAL
+rasterio
+openpyxl

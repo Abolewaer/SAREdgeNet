@@ -1,0 +1,2 @@
+reference_lake_count,reference_area_class_km2,reference_pixels,predicted_pixels,intersection_pixels,precision_percent,recall_percent,f1_percent,iou_percent
+28222,<1,9515348,1839500,1179178,64.10,12.39,20.77,11.59

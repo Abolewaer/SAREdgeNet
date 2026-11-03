@@ -1,0 +1,53 @@
+{
+  "threshold": 0.1,
+  "rule": "Int16 > 1000",
+  "grid": "EPSG32646 20m; nearest resampling SAR and Kekexili footprint; reference rasterized by pixel centres; no tolerance",
+  "missing_tiles": [
+    24
+  ],
+  "sar_valid_pixels": 2085462861,
+  "common_valid_pixels": 2069727945,
+  "coverage": 0.9924549526657813,
+  "reference_lake_pixels_in_missing_observations": 6878,
+  "metrics": {
+    "all": {
+      "TP": 113264152,
+      "FP": 10457227,
+      "FN": 3316154,
+      "TN": 1942690412,
+      "precision": 0.9154776071482359,
+      "recall": 0.971554766720204,
+      "F1": 0.9426829612118617,
+      "lake_IoU": 0.8915802229881149,
+      "background_IoU": 0.9929600634321578,
+      "mIoU": 0.9422701432101364,
+      "accuracy": 0.9933453181451826
+    },
+    "external_test": {
+      "TP": 106615890,
+      "FP": 10260384,
+      "FN": 3091944,
+      "TN": 1891857636,
+      "precision": 0.912211575122595,
+      "recall": 0.9718165614317024,
+      "F1": 0.9410712069886208,
+      "lake_IoU": 0.888701122492292,
+      "background_IoU": 0.9929916763756753,
+      "mIoU": 0.9408463994339837,
+      "accuracy": 0.9933630796256782
+    },
+    "development": {
+      "TP": 6648262,
+      "FP": 196843,
+      "FN": 224210,
+      "TN": 50832776,
+      "precision": 0.9712432460860717,
+      "recall": 0.9673756400899123,
+      "F1": 0.969305585089845,
+      "lake_IoU": 0.9404393494985016,
+      "background_IoU": 0.9917849454720739,
+      "mIoU": 0.9661121474852877,
+      "accuracy": 0.9927281900752082
+    }
+  }
+}

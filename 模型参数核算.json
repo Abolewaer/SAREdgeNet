@@ -1,0 +1,48 @@
+{
+  "basis": "Actual nn.Parameter element counts; not a reproduction of historical accuracy or efficiency",
+  "models": [
+    {
+      "method": "SAREdgeNet",
+      "parameters": 21498002,
+      "millions": 21.498002,
+      "display_millions": "21.50",
+      "architecture_id": "SAREdgeNet_17features_ResNet34"
+    },
+    {
+      "method": "UNet",
+      "parameters": 54296962,
+      "millions": 54.296962,
+      "display_millions": "54.3",
+      "architecture_id": "UNet_SAR_width80_bottleneck1456_v2"
+    },
+    {
+      "method": "AttentionUNet",
+      "parameters": 57809534,
+      "millions": 57.809534,
+      "display_millions": "57.8",
+      "architecture_id": "AttentionUNet_SAR_width80_bottleneck1540_v2"
+    },
+    {
+      "method": "DeepLabV3Plus",
+      "parameters": 40228866,
+      "millions": 40.228866,
+      "display_millions": "40.2",
+      "architecture_id": "DeepLabV3Plus_ResNet50_SARDEM_aspp256_decoder240_v2"
+    },
+    {
+      "method": "PSPNet",
+      "parameters": 47464546,
+      "millions": 47.464546,
+      "display_millions": "47.5",
+      "architecture_id": "PSPNet_ResNet50_SARDEM_ppm512_head536_v2"
+    },
+    {
+      "method": "FPN",
+      "parameters": 28473026,
+      "millions": 28.473026,
+      "display_millions": "28.5",
+      "architecture_id": "FPN_ResNet50_SARDEM_pyramid256_head176_v2"
+    }
+  ],
+  "provenance": "Recovered parameter-element count record; architectures identified below. Not a fresh model execution or proof of checkpoint identity."
+}

@@ -1,0 +1,19 @@
+{
+  "sar": "data/sar_calibrated_terrain_corrected.tif",
+  "dem": "data/dem.tif",
+  "output_dir": "outputs/kekexili_80_20_external_test_v2/SAREdgeNet",
+  "train_table": "data/training/features17_labelled.csv",
+  "train_image_dir": "data/contours",
+  "seed_max_intensity": 50,
+  "seed_tolerance": 30,
+  "reference": "data/evaluation/reference.shp",
+  "dx": 0,
+  "dy": 0,
+  "target_crs": null,
+  "resolution": 20,
+  "epochs": 10000,
+  "batch_size": 32,
+  "spatial_protocol_file": "configs/SpatialProtocol.json",
+  "evaluation_subset": "test",
+  "spatial_samples_file": "data/training/contour_spatial_mapping.csv"
+}

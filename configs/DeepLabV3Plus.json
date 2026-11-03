@@ -1,0 +1,23 @@
+{
+  "tif_path": "data/sar.tif",
+  "shp_path": "data/reference.shp",
+  "model_path": "outputs/kekexili_80_20_external_test_v2/DeepLabV3Plus_capacity_v2/model.pth",
+  "output_path": "outputs/kekexili_80_20_external_test_v2/DeepLabV3Plus_capacity_v2/prediction.tif",
+  "tile_size": 512,
+  "overlap": 64,
+  "batch_size": 2,
+  "epochs": 30,
+  "learning_rate": 0.0001,
+  "num_workers": 8,
+  "dem_preprocessed": "data/dem_aligned.tif",
+  "predict_batch_size": 2,
+  "predict_num_workers": 0,
+  "predict_threshold": 0.83,
+  "random_seed": 42,
+  "training_seed": 42,
+  "architecture_version": "capacity_v2",
+  "input_channels": 2,
+  "backbone_pretrained": true,
+  "spatial_protocol_file": "configs/SpatialProtocol.json",
+  "evaluation_subset": "test"
+}
